@@ -1,1 +1,1 @@
-# Java Client-Server app using Rpc Protocol for communication
+# Java Client-Server App using Rpc Protocol for communication
