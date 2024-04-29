@@ -1,0 +1,56 @@
+syntax="proto3";
+package com.example;
+
+option java_package = "org.example.protobuff";
+option java_outer_classname = "TransporturiCurseProto";
+option csharp_namespace = "org.example.TransporturiCurseProto";
+
+
+message Cursa{
+  int64 id=1;
+  string destinatia=2;
+  string dataPlecare=3;
+  int32 oraPlecare=4;
+  int32 nrLocuri=5;
+}
+
+message User{
+  int64 id=1;
+  string username=2;
+  string password=3;
+}
+
+message Rezervare{
+  int64 id =1;
+  string numeClient=2;
+  int32 nrLocuri=3;
+  int64 idCursa=4;
+}
+
+
+message Request {
+  enum Type {  LOGIN=0; LOGOUT=1; GET_ALL_CURSE=2; GET_CURSA=3; ALL_REZ_BY_CURSA_ID=4; SAVE_REZERVARE=5;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  User user = 2;
+  Cursa cursa = 3;
+  Rezervare rezervare = 4;
+  int64 id=5;
+
+}
+
+message Response{
+  enum Type { OK=0; ERROR=1; GET_CURSE=2; ALL_REZ_BY_CURSA_ID_RESPONSE=3; TABELA_UPDATATA=4;}
+
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  repeated Cursa curseList=2;
+  repeated Rezervare rezervareList=3;
+  User user =4;
+  Rezervare rezervare=5;
+}

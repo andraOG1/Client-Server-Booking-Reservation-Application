@@ -1,0 +1,10 @@
+rootProject.name = 'ModulMain'
+include 'ChatModel'
+include 'ChatPersistence'
+include 'ChatServices'
+include 'ChatServer'
+include 'ChatServices'
+include 'ChatNetworking'
+include 'ChatClientFx'
+include 'ChatClientJavaFx'
+
