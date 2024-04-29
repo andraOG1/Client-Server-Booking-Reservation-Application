@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="539.0" prefWidth="887.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllerFx.FereastraCurseController">
+   <children>
+      <TableView fx:id="tableCurse" layoutX="14.0" layoutY="42.0" prefHeight="200.0" prefWidth="375.0">
+        <columns>
+          <TableColumn fx:id="tableColumnDest" prefWidth="66.0" text="Destinatia" />
+          <TableColumn fx:id="tableColumnData" prefWidth="118.0" text="Data Plecare" />
+            <TableColumn fx:id="tableColumnOra" prefWidth="107.0" text="Ora Plecare" />
+            <TableColumn fx:id="tableColumnNrLocuri" prefWidth="83.0" text="Locuri dispo" />
+        </columns>
+      </TableView>
+      <Label layoutX="29.0" layoutY="13.0" prefHeight="29.0" prefWidth="78.0" text="Toate cursele" />
+      <Label layoutX="15.0" layoutY="261.0" text="Introdu destinatia" />
+      <Label layoutX="15.0" layoutY="298.0" prefHeight="17.0" prefWidth="94.0" text="Introdu data" textAlignment="CENTER" />
+      <Label layoutX="15.0" layoutY="340.0" prefHeight="17.0" prefWidth="94.0" text="Introdu ora" />
+      <TextField fx:id="dest" layoutX="118.0" layoutY="257.0" prefHeight="25.0" prefWidth="94.0" promptText="dest" />
+      <TextField fx:id="dataa" layoutX="118.0" layoutY="294.0" prefHeight="25.0" prefWidth="94.0" promptText="data" />
+      <TextField fx:id="ora" layoutX="118.0" layoutY="336.0" prefHeight="25.0" prefWidth="94.0" promptText="ora" />
+      <Button fx:id="cautare" layoutX="15.0" layoutY="381.0" mnemonicParsing="false" onAction="#btnCautare" text="Cauta cursa" />
+          <TableView fx:id="tableRezervari" layoutX="415.0" layoutY="40.0" prefHeight="477.0" prefWidth="156.0">
+        <columns>
+          <TableColumn fx:id="tableColumnNr" prefWidth="75.0" text="Nr Loc" />
+          <TableColumn fx:id="tableColumnNume" text="Nume Client" />
+        </columns>
+      </TableView>
+      <Button fx:id="LogOut" layoutX="15.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="50.0" prefWidth="94.0" text="Log Out" />
+      <Label layoutX="396.0" layoutY="19.0" text="Locurile pentru cursa cautata sunt:" />
+      <Label layoutX="594.0" layoutY="19.0" text="Adaugare rezervare" />
+      <Label layoutX="591.0" layoutY="42.0" text="Nume client" />
+      <Label layoutX="599.0" layoutY="72.0" text="Nr locuri " />
+      <TextField fx:id="numeCl" layoutX="676.0" layoutY="38.0" prefHeight="25.0" prefWidth="94.0" promptText="numeREZERV" />
+      <TextField fx:id="nrLocuri" layoutX="676.0" layoutY="68.0" prefHeight="25.0" prefWidth="94.0" promptText="nrREZERV" />
+      <Button fx:id="Rezervare" layoutX="669.0" layoutY="130.0" mnemonicParsing="false" onAction="#addRezervare" text="Adauga rezervare" />
+      <Label layoutX="579.0" layoutY="102.0" text="Selecteaza cursa din tabel pt a face o rezervare">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

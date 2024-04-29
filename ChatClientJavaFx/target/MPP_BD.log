@@ -1,0 +1,154 @@
+08 Apr 2024 10:52:33,743 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:52:33,756 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:52:33,759 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:52:39,626 TRACE org.example.RepoDBUser 32 findOneByUsername - Enter finding user with username ana
+08 Apr 2024 10:52:39,628 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 10:52:39,629 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 10:52:39,632 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 10:52:39,634 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 10:52:39,635 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 10:52:39,642 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 10:52:39,644 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 10:52:58,951 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:52:58,963 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:52:58,965 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:54:09,479 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:54:09,490 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:54:09,492 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:55:07,382 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:55:07,399 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:55:07,402 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:57:23,472 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:57:23,495 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:57:23,500 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:58:52,094 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:58:52,113 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:58:52,119 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:59:36,260 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:59:36,276 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 10:59:36,280 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:05:05,475 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:05:05,508 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:05:05,515 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:06:06,703 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:06:06,718 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:06:06,723 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:56:58,806 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:56:58,852 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:56:58,855 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:57:35,598 INFO  org.example.RepoDBCursa 23 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:57:35,605 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 11:57:35,606 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:25:59,479 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:25:59,510 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:25:59,512 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:25:59,566 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 15:25:59,566 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 15:25:59,567 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 15:25:59,567 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 15:25:59,568 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 15:25:59,568 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 15:25:59,571 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 15:25:59,573 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 15:34:11,677 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:34:11,686 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:34:11,688 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:53:25,673 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:53:25,719 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:53:25,721 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 15:53:25,776 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 15:53:25,777 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 15:53:25,777 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 15:53:25,778 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 15:53:25,778 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 15:53:25,779 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 15:53:25,782 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 15:53:25,784 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:19:02,779 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:02,832 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:02,836 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:02,927 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:19:02,928 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:19:02,928 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:19:02,929 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:19:02,930 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:19:02,930 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:19:02,933 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:19:02,935 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:19:26,728 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:26,748 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:26,750 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:19:26,806 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:19:26,806 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:19:26,806 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:19:26,807 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:19:26,807 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:19:26,807 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:19:26,809 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:19:26,810 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:21:12,994 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:21:13,015 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:21:13,018 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:21:13,097 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:21:13,097 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:21:13,104 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:21:13,105 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:21:13,105 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:21:13,106 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:21:13,109 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:21:13,110 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:22:30,776 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:22:32,088 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:22:33,844 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:22:44,845 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:22:44,846 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:22:44,846 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:22:44,847 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:22:44,848 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:22:44,849 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:22:44,853 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:22:44,856 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:24:20,222 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:24:20,234 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:24:20,238 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:24:20,293 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:24:20,293 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:24:20,294 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:24:20,294 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:24:20,295 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:24:20,295 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:24:20,299 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:24:20,300 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:24:58,916 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:24:59,615 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:25:00,123 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:25:31,699 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:25:31,700 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:25:31,701 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:25:31,702 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:25:31,702 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:25:31,703 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:25:31,709 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:25:31,712 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 16:26:52,738 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:26:52,745 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:26:52,747 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 16:27:10,311 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 16:27:10,312 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 16:27:10,312 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 16:27:10,313 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 16:27:10,314 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 16:27:10,315 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 16:27:10,319 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 16:27:10,322 TRACE org.example.JdbcUtils 54 getConnection - Exit
+08 Apr 2024 18:03:16,351 INFO  org.example.RepoDBCursa 22 <init> - Initializing RepoDBCursa with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 18:03:16,387 INFO  org.example.RepoDBUser 23 <init> - Initializing RepoDBUser with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 18:03:16,390 INFO  org.example.RepoDBRezervare 24 <init> - Initializing RepoDBRezervare with properties: {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2024 18:03:16,528 TRACE org.example.RepoDBCursa 117 findAll - Enter
+08 Apr 2024 18:03:16,529 TRACE org.example.JdbcUtils 45 getConnection - Enter
+08 Apr 2024 18:03:16,530 TRACE org.example.JdbcUtils 22 getNewConnection - Enter
+08 Apr 2024 18:03:16,531 INFO  org.example.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+08 Apr 2024 18:03:16,532 INFO  org.example.JdbcUtils 28 getNewConnection - user: null
+08 Apr 2024 18:03:16,533 INFO  org.example.JdbcUtils 29 getNewConnection - pass: null
+08 Apr 2024 18:03:16,543 ERROR org.example.JdbcUtils 38 getNewConnection - java.sql.SQLException: The url cannot be null
+08 Apr 2024 18:03:16,545 TRACE org.example.JdbcUtils 54 getConnection - Exit
